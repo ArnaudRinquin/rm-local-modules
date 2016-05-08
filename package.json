@@ -1,0 +1,25 @@
+{
+  "name": "rm-local-modules",
+  "version": "0.0.0",
+  "description": "Clear your local modules so you can reinstall them",
+  "main": "index.js",
+  "bin": {
+    "rm-local-modules": "./bin.js"
+  },
+  "scripts": {
+    "pretest": "(cd test && npm i)",
+    "test": "./bin.js -d test -v && test ! -d ./node_modules/local && test ! -d ./node_modules/sublocal"
+  },
+  "keywords": [
+    "rm",
+    "local",
+    "modules"
+  ],
+  "author": "Arnaud Rinquin",
+  "license": "MIT",
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "minimist": "^1.2.0",
+    "rimraf": "^2.5.2"
+  }
+}

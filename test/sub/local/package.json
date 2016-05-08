@@ -1,0 +1,8 @@
+{
+  "name": "sublocal",
+  "version": "0.0.0",
+  "description": "Another Submodule for rm-local-modules testing",
+  "main": "index.js",
+  "author": "Arnaud Rinquin",
+  "license": "MIT"
+}
