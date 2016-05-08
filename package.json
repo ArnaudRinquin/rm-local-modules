@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "Clear your local modules so you can reinstall them",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArnaudRinquin/rm-local-modules"
+  },
   "bin": {
     "rm-local-modules": "./bin.js"
   },

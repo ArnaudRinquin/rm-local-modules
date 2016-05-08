@@ -13,9 +13,9 @@ Use case:
 `-verbose, -v`: outputs which modules where detected and if they were successfully removed:
 
 > ```
-Tried to remove 2 local module(s):
-local ✔
-sublocal ✔
+> Tried to remove 2 local module(s):
+> local ✔
+> sublocal ✔
 > ```
 
 `-dir, -d <path>`: the path were to run the tool, defaults to current dir.
@@ -41,7 +41,6 @@ rmLocalModules(opts).then(function(results){
 ## Example
 
 ```js
-
 // package.json
 {
   // ...
