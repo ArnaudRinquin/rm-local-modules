@@ -1,6 +1,6 @@
 {
   "name": "rm-local-modules",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Clear your local modules so you can reinstall them",
   "main": "index.js",
   "repository": {
