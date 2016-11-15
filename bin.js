@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var rmLocalModules = require('.');
+var rmLocalModules = require('./');
 var argv = require('minimist')(process.argv.slice(2), {
   string: ['dir'],
   boolean: ['verbose'],
