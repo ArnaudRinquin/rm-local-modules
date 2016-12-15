@@ -3,7 +3,7 @@ var path = require('path')
 var rimraf = require('rimraf');
 
 function isLocalModule(version) {
-  return version.startsWith('file:')
+  return version.substr(0,5) === 'file:';
 }
 
 function access(filePath) {
